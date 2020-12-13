@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Accueil - Tirage cartes</title>
+        <link rel="icon" type="image/x-icon" href="logo/favicon.ico">
+        <link rel="stylesheet" href="blackJack.css">
+    </head>
+
+    <body id="body">
+        <header id="header" class="header">
+            <h1>BLACK JACK</h1>
+        </header>
+        <main class="main">
+            <section class="sectOrdi" id="sectOrdi">
+                <P class="ordi">BANQUE</P>
+                <img id="carteVersoOrdi" class="carteVersoOrdi" src="photos/cartes/joker.jpg">
+                <img id="carteRectoOrdi1" class="carteRectoOrdi1">
+                <img id="carteRectoOrdi2" class="carteRectoOrdi2">
+                <img id="carteRectoOrdi3" class="carteRectoOrdi3">
+            </section>
+            <hr>
+            <section class="sectJoueur" id="sectJoueur">
+                <P class="player">JOUEUR</P>
+                <img id="carteVersoJoueur" class="carteVersoJoueur" src="photos/cartes/interro.jpg">
+                <img id="carteRectoJoueur1" class="carteRectoJoueur1">
+                <img id="carteRectoJoueur2" class="carteRectoJoueur2">
+                <img id="carteRectoJoueur3" class="carteRectoJoueur3">
+            </section>
+        </main>
+        <footer class="rslt" id="rslt">
+            <p class="rstOrdi" id="rstOrdi"></p>
+            <p class="rstJoueur" id="rstJoueur"></p>
+            <div>
+            <p class="rstJeu1" id="rstJeu1"></p>
+            <p class="rstJeu2" id="rstJeu2"></p>
+            </div>
+            <button class="refresh" id="refresh">RAFRAICHIR</button>
+        </footer>
+            <script src="blackJack.js"></script>
+        </body>
+    </html>
